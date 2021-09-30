@@ -1,0 +1,109 @@
+html{
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 450px 50px 1fr 75px;
+    grid-template-columns: 5% 60% 5% 25% 5%;    
+}
+header{
+    background-color:#63b3ed;
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row: 1;
+}
+main{    
+    grid-row: 3;
+    grid-column: 2/3;   
+    
+}
+article{
+    grid-column: 2;
+}
+aside{    
+    grid-column: 4;   
+    grid-row: 3;
+}
+img {
+    
+    height: 300px;
+    width: 300px;
+  }
+
+#PicOfMe{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+#MiniStatement{
+    order: -1;
+}
+
+#HeaderH1{
+    font-size: 36px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+.postTitle{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+.dateAuthor{
+    color: #718096;
+}
+
+.sidehead{
+    color: #48BB78;
+    font-family: Georgia,'Times New Roman', Times, serif;
+}
+
+#ab{
+    color: #000000;
+}
+
+#About{
+    background-color: #E2E8F0;
+    padding: 10px;
+    padding-top: 5px;
+    grid-column: 3;   
+}
+
+.SocialMedia,.Archives{
+    color: #4299E1;
+    grid-column: 3;   
+}
+
+footer{
+    background-color: #2C5282;
+    color: #FFFFFF;
+    grid-row:4;
+    grid-column: 1/6;
+    padding: 20px;
+    padding-left: 75px;
+    
+}
+
+#float1{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#float2{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
